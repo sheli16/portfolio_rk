@@ -1,0 +1,206 @@
+h1 {
+  font: 20px Georgia, Times, Times New Roman, serif;
+  color:#ffffff;
+  font-weight: bold;
+}
+
+h2 {color: #4aaaa5; 
+  
+  font: 20px Georgia, Times, Times New Roman, serif;
+font-weight: bold;
+}
+
+ h3 {color: #4aaaa5; 
+  
+  font: 17px Georgia, Times, Times New Roman, serif;;
+  font-weight:bold;
+}
+
+body{
+  font: 12px Arial, Helvetica Neue, Helvetica, sans-serif;
+  width: 960px;
+  
+
+}
+
+a:link {color:#777777;
+}
+
+a:visited {color:#777777;
+}
+
+a:hover {color:#4aaaa5;
+}
+
+a:active {color:#4aaaa5;
+}
+p {
+  text-align: left;
+  color: #777777;
+  font-size: 12px;
+  line-height: 200%
+
+}
+
+img {
+padding: 10px 20px 10px 0px;
+float:left;
+
+}
+
+.logo {
+  width: 165px;
+  padding:19px; 
+  background-color: #4aaaa5;
+  margin-left: 160px;
+  
+  text-align: center;
+  color: #ffffff;
+  float: left;
+}
+
+.nav {
+padding-top: 19px;
+  margin-right: 160px;
+  float:right;
+
+}
+.nav li {display: inline;
+ padding:10px;
+ 
+}
+
+.nav a {
+text-decoration: none;
+}
+
+.header {
+background-color: #ffffff;
+width:960px;
+height:60px;
+border-bottom-style: solid;
+border-bottom-color: #cccccc;
+border-bottom-width: 2px;
+}
+
+.maincontainer {
+  background-color: #eeeeee;
+  background-image: url("assets/images/greytexture.jpg");
+  background-repeat:repeat;
+  border-color: #dddddd; 
+  width:960px;
+  float:left;
+  border-bottom-style: solid;
+  border-bottom-color: #4aaaa5;
+  border-bottom-width:4px;
+  
+  
+}
+
+.contentaboutme {
+  background-color: #ffffff;
+  border-color: #dddddd;
+  width: 350px;
+  margin:25px 0px 25px 160px;
+  padding:30px;
+  float:left;
+  color: #777777;
+  font-size: 12px;
+}
+.connectwithme {
+  background-color: #ffffff;
+  width: 150px;
+  padding: 20px;
+  margin: 25px 160px 30px 30px;
+  float:left;
+  }
+
+.connectwithme li { 
+    display: inline;
+    float: left;
+    padding: 0px 2px 0px 0px;
+   }
+
+
+.footer {
+  background-color: #666666;
+  width:960px;
+  height: 60px;
+  float:left;
+  padding: 10px 0px 1px 0px;
+  text-align: center;
+  color: #eeeeee;
+  font-size: 9px;
+
+}
+
+div.img {
+    margin: 15px;
+    border: 1px solid #ccc;
+    width: 140px;
+    float:left;
+
+} 
+
+div.img:hover {
+    border: 1px solid #777;
+    
+
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+
+}
+
+div.desc {
+    height:20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #4aaaa5; 
+    float:left;
+    color:#eeeeee;
+}
+
+
+#contact-area {
+  width: 325px;
+  margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+  padding: 5px;
+  width: 300px;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.4em;
+  margin: 0px 0px 10px 0px;
+  border: 1px solid #ccc;
+}
+
+#contact-area textarea {
+  height: 70px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+  border: 1px solid #900;
+}
+
+#contact-area input.submit-button {
+  width: 100px;
+  float: left;
+  background-color: #4aaaa5;
+  color:#ffffff;
+  font-size: 10px;
+} 
+
+label {
+  float: left;
+  text-align: left;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #777777;
+  font-size: 10px;
+  clear:right;
+} 
