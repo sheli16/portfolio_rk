@@ -17,7 +17,7 @@ font-weight: bold;
 }
 
 body{
-  font: 12px Arial, Helvetica Neue, Helvetica, sans-serif;
+  font: 12px 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   width: 960px;
   
 
@@ -85,7 +85,7 @@ border-bottom-width: 2px;
 
 .maincontainer {
   background-color: #eeeeee;
-  background-image: url("assets/images/greytexture.jpg");
+  background-image: url("assets/images/cream_pixels.jpg");
   background-repeat:repeat;
   border-color: #dddddd; 
   width:960px;
@@ -204,3 +204,50 @@ label {
   font-size: 10px;
   clear:right;
 } 
+
+@media screen and (max-width: 500px) {
+  body {
+    width: 100%;
+    float:none;
+  }
+    .contentaboutme {
+  background-color: #ffffff;
+  border-color: #dddddd;
+  width: auto;
+  padding:5px;
+  float:none;
+  color: #777777;
+  font-size: 60%;
+}
+.maincontainer {
+  background-color: #eeeeee;
+  background-image: url("assets/images/cream_pixels.jpg");
+  background-repeat:repeat;
+  border-color: #dddddd; 
+  width:60%;
+  float:left;
+  border-bottom-style: solid;
+  border-bottom-color: #4aaaa5;
+  border-bottom-width:4px;
+  margin:0px;
+}
+.contentaboutme {
+  background-color: #111111;
+  border-color: #dddddd;
+  width: 300px;
+  margin:30px;
+
+ }   
+ .logo {
+  margin-left: 30px;
+  width: auto;
+  }
+    .nav {
+  padding-top: 19px;
+  float:left;
+  }
+
+  .nav li {display: inline-flex;
+ padding:10px;
+ float: none;
+}
